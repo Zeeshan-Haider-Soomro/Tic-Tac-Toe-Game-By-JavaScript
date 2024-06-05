@@ -2,8 +2,15 @@
 let count = 1
 function runfn(element){
     if(winner=check()){
-        alert(winner + " is the winner")
-        location.reload()
+        Swal.fire({
+            position: "center",
+            icon: "success",
+            title: winner + "is the winner",
+            showConfirmButton: false,
+            // timer: 1500
+        });
+        // location.reload()
+        // alert(winner + " is the winner")
     }
     if(count%2 != 0){
         element.innerHTML = "❌"
@@ -13,7 +20,9 @@ function runfn(element){
         element.innerHTML = "⭕"
         count++
     }
+
 }
+
 function check(){
     d1=div1.innerHTML
     d2=div2.innerHTML
