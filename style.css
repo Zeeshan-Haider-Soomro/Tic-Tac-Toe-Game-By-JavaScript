@@ -7,14 +7,12 @@ body{
 h1{
     text-align: center;
     text-decoration: underline;
-    color: blue;
+    color: red;
 }
 .container{
     display: grid;
     place-content: center;
     margin-top: 3rem;
-    /* justify-content: center;
-    align-items: center; */
     grid-template-columns: repeat(3,100px);
 }
 .container>div{
@@ -36,5 +34,15 @@ button{
     outline: none;
     border: 0;
     cursor: pointer;
-
+    font-weight: 700;
+    font-size: 15px;
+}
+button:hover{
+    background-color: brown;
+    color: aliceblue;
+}
+#save{
+    background-color: brown;
+    color: aliceblue;
+    
 }
