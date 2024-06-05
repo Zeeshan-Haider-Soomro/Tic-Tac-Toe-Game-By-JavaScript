@@ -7,7 +7,6 @@ function runfn(element){
             icon: "success",
             title: winner + "is the winner",
             showConfirmButton: false,
-            // timer: 1500
         });
         // location.reload()
         // alert(winner + " is the winner")
@@ -51,4 +50,7 @@ function check(){
         return d3
     }
 
+}
+function RESTART(){
+    location.reload()
 }
