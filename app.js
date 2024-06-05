@@ -4,9 +4,9 @@ function runfn(element){
     if(winner=check()){
         Swal.fire({
             position: "center",
-            icon: "success",
-            title: winner + "is the winner",
-            showConfirmButton: false,
+            // icon: "success",
+            title: winner + " " + "is the winner",
+            // showConfirmButton: false,
         });
         // location.reload()
         // alert(winner + " is the winner")
