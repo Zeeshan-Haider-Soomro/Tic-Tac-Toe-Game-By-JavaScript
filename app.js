@@ -4,12 +4,8 @@ function runfn(element){
     if(winner=check()){
         Swal.fire({
             position: "center",
-            // icon: "success",
-            title: winner + " " + "is the winner",
-            // showConfirmButton: false,
+            title: winner + " " + "has won the game",
         });
-        // location.reload()
-        // alert(winner + " is the winner")
     }
     if(count%2 != 0){
         element.innerHTML = "❌"
