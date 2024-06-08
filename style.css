@@ -46,3 +46,10 @@ button:hover{
     color: aliceblue;
     
 }
+.footer{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
