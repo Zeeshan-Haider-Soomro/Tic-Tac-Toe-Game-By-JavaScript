@@ -1,4 +1,8 @@
 
+let date = new Date()
+let yearChanger = document.getElementById('yearChanger')
+// yearChanger.innerText = date.getFullYear()
+
 let count = 1
 function runfn(element){
     if(winner=check()){
